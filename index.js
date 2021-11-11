@@ -7,5 +7,6 @@ document.getElementById('btn').onclick = function() {
     if (rnd === 3) omikuji = "小吉";
     if (rnd === 4) omikuji = "末吉";
     if (rnd === 5) omikuji = "凶";
-    alert(omikuji);
+    var msg = "おみくじの結果は";
+    alert(msg + omikuji);
 }
